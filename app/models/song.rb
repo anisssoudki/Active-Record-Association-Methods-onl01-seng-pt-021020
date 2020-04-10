@@ -13,8 +13,8 @@ class Song < ActiveRecord::Base
 
 if  self.id = nil 
   self.artist = Artist.create(name: "Drake")
-elsif self.artist == true 
-  self.artist = 
+elsif self.id == true 
+  self.id = Artist.create(name: "Drake").id
   
 end
   
