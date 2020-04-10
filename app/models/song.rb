@@ -15,7 +15,8 @@ if  self.id = nil
   self.artist = Artist.create(name: "Drake")
 elsif self.id == true 
   self.id = Artist.create(name: "Drake").id
-  
+else
+  nil
 end
   
   end
