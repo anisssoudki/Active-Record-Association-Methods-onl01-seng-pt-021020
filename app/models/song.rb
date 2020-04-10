@@ -15,4 +15,5 @@ class Song < ActiveRecord::Base
   else
     self.artist 
   end
+  end
 end
