@@ -12,11 +12,12 @@ class Song < ActiveRecord::Base
     # Hint: you won't want to create an artist record every time this method is called, only if an Drake is *not found*
 
 if  self.id = nil 
-  self.artist = Artist.create(name: "Drake")
-elsif self.id == true 
+  self.artist_id = Artist.create(name: "Drake")
+ 
+ else
   self.artist_id = Artist.create(name: "Drake").id
-else
-  nil
+
+  
 end
   
   end
